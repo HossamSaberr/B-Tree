@@ -122,12 +122,6 @@ CTBPlusTreeLeafNode >> searchKey: aKey ifAbsent: errorBlock [
 ]
 
 { #category : 'initialization' }
-CTBPlusTreeLeafNode >> setKeys: keyCol values: valCol [
-    keys := keyCol.
-    values := valCol.
-]
-
-{ #category : 'initialization' }
 CTBPlusTreeLeafNode >> setKeys: aKeyCollection values: aValueCollection nextLeaf: aNode [
     keys := aKeyCollection.
     values := aValueCollection.
